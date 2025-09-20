@@ -1,0 +1,17 @@
+# Python venv
+.venv/
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
+
+# App artifacts
+*.zip
+*.srt
+*.txt
+
+# OS cruft
+.DS_Store
+Thumbs.db
