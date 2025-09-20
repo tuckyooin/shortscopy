@@ -1,17 +1,33 @@
-# Python venv
-.venv/
-__pycache__/
-*.pyc
-
-# Streamlit
+# --- Streamlit secrets
 .streamlit/secrets.toml
 .streamlit/**/secrets.toml
 
-# App artifacts
-*.zip
-*.srt
-*.txt
+# --- Python / venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# OS cruft
+# --- 생성물(정확히 지정)
+*_plain.txt
+*_vrew.txt
+*_timecoded_oneline.txt
+*_timecoded_block.txt
+*_ocr_plain.txt
+*_ocr_timecoded.txt
+meta.txt
+*.srt
+*.zip
+
+# --- 설치파일/로컬툴
+Wondershare/
+DeepLSetup.exe
+# 필요시 전체 exe 제외하려면 다음 줄 사용(권장 아님)
+# *.exe
+
+# --- OS & 에디터
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/

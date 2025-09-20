@@ -1,0 +1,10 @@
+streamlit>=1.36
+requests>=2.31
+Pillow>=10.0
+rapidfuzz>=3.0
+yt-dlp>=2024.12.13
+ffmpeg-python>=0.2
+youtube-transcript-api>=0.6
+openai-whisper>=20231117
+pytesseract>=0.3
+argostranslate>=1.9
